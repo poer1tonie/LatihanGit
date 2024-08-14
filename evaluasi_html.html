@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <title>Evaluasi HTML Dasar</title>
+</head>
+<body>
+    <h1>Selamat Datang di Evaluasi HTML</h1>
+    <p>Halaman ini bertujuan untuk menguji pemahaman tentang elemen-elemen dasar dalam HTML.</p>
+    <h2>Pengelolaan Teks</h2>
+    <p>Ini adalah contoh paragraf yang berisi <strong>teks tebal</strong> dan <em>teks miring</em> untuk menunjukkan pengelolaan teks dalam HTML.</p>
+    
+    <hr>
+    
+    <blockquote>
+        "Kemerdekaan bukanlah pemberian, melainkan hasil dari perjuangan yang tak kenal lelah."
+        — Haji Agus Salim
+    </blockquote>
+    <h2>Hyperlink dan Gambar</h2>
+    <p>Kunjungi situs training favorit saya: <a href="https://www.sanbercode.com/" target="_blank">Sanber Code</a>.</p>
+    <p>
+        <a href="https://photos.app.goo.gl/Zau58MRU2RyHt1nF9" target="_blank">
+            <img src="https://photos.app.goo.gl/Zau58MRU2RyHt1nF9" alt="Virtual Background Bandung AI Camp">
+        </a>
+    </p>
+    <h2>Membuat Daftar</h2>
+    <ol>
+        <li>Bisa membangun website.</li>
+        <li>Bekerja di bidang IT.</li>
+        <li>Mengikuti pelatihan dan sertifikasi.</li>
+    </ol>
+
+    <ul>
+        <li>Bermain bulutangkis</li>
+        <li>Menonton film</li>
+        <li>Menjelajahi alam</li>
+    </ul>
+    <h2>Tabel Data</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Nama</th>
+                <th>Umur</th>
+                <th>Kota</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Damar</td>
+                <td>25</td>
+                <td>Riau</td>
+            </tr>
+            <tr>
+                <td>Budi</td>
+                <td>30</td>
+                <td>Yogyakarta</td>
+            </tr>
+            <tr>
+                <td>Cinta</td>
+                <td>28</td>
+                <td>Surabaya</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Formulir Pendaftaran</h2>
+    <form action="#" method="post">
+        <label for="nama">Nama Lengkap:</label><br>
+        <input type="text" id="nama" name="nama" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label>Jenis Kelamin:</label><br>
+        <input type="radio" id="laki" name="gender" value="Laki-laki">
+        <label for="laki">Laki-laki</label><br>
+        <input type="radio" id="perempuan" name="gender" value="Perempuan">
+        <label for="perempuan">Perempuan</label><br><br>
+
+        <label for="kota">Kota Tempat Tinggal:</label><br>
+        <select id="kota" name="kota" required>
+            <option value="Jakarta">Jakarta</option>
+            <option value="Bandung">Bandung</option>
+            <option value="Surabaya">Surabaya</option>
+            <option value="Yogyakarta">Yogyakarta</option>
+            <option value="Yogyakarta">Riau</option>
+        </select><br><br>
+
+        <input type="checkbox" id="syarat" name="syarat" required>
+        <label for="syarat">Saya menyetujui syarat dan ketentuan</label><br><br>
+
+        <label for="pesan">Pesan atau Komentar:</label><br>
+        <textarea id="pesan" name="pesan" rows="4" cols="50"></textarea><br><br>
+
+        <input type="submit" value="Kirim">
+    </form>
+</body>
+</html>
