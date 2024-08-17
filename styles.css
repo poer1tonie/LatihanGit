@@ -1,0 +1,91 @@
+/* Mengubah warna teks dari semua elemen <p> menjadi merah */
+p {
+    color: red;
+}
+
+/* Mengubah latar belakang dari div dengan kelas "container" menjadi kuning */
+.container {
+    background-color: yellow;
+}
+
+/* Mengubah warna teks paragraf dengan ID "highlight" menjadi oranye dan ukurannya menjadi 20px */
+#highlight {
+    color: orange;
+    font-size: 20px;
+}
+
+/* Mengubah warna teks dari tautan <a> menjadi biru saat hover */
+a:hover {
+    color: blue;
+}
+
+/* Box Model */
+#boxModel {
+    width: 300px;
+    height: 150px;
+    padding: 20px;
+    border: 5px solid black;
+    margin: 15px;
+}
+
+/* Flexbox Container */
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 2px solid gray;
+}
+
+/* Flexbox Items */
+.item {
+    padding: 10px;
+    border: 2px solid gray;
+}
+
+/* Styling Lanjutan */
+
+/* Font Styles */
+h2 {
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Background Styling */
+.background-example {
+    background-image: url('https://drive.google.com/file/d/1z2wpIdXw-39C9F41PqR9LcALpZxppJm7/view?usp=sharing'); /* Ganti dengan path gambar */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Styling Kotak */
+.advanced-style {
+    background: linear-gradient(to right, blue, purple);
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+/* Media Queries untuk Responsif */
+
+/* Aturan untuk layar kurang dari 600px */
+@media (max-width: 600px) {
+    /* Mengubah tata letak elemen flex-container menjadi kolom */
+    .flex-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    /* Mengubah ukuran font heading <h2> */
+    h2 {
+        font-size: 24px;
+    }
+
+    /* Mengubah warna latar belakang halaman */
+    body {
+        background-color: #e0f7fa;
+    }
+}
