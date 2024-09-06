@@ -1,0 +1,57 @@
+/* Custom CSS */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.top-bar {
+    background-color: #3a2d5c;
+}
+
+.navbar-brand img {
+    width: 30px;
+}
+
+.breadcrumb {
+    background-color: transparent;
+}
+
+.sign-in-section {
+    min-height: 60vh;
+}
+
+.sign-in-section .card {
+    border-radius: 15px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.footer {
+    background-color: #f8f9fa;
+}
+
+.footer h5, .footer h6 {
+    color: #3a2d5c;
+}
+
+.footer a {
+    color: #3a2d5c;
+    transition: color 0.3s;
+}
+
+.footer a:hover {
+    color: #007bff;
+}
+
+.footer .input-group {
+    max-width: 300px;
+}

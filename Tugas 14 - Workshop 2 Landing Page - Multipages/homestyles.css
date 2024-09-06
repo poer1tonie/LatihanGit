@@ -1,0 +1,80 @@
+/* Custom CSS */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px;
+    background-color: #f9f9f9;
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #333;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #666;
+}
+
+.btn-belanja-sekarang {
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.hero-image img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.features {
+    margin-top: 50px;
+    padding: 20px 0;
+}
+
+.features img {
+    width: 50px;
+    margin-bottom: 15px;
+}
+
+.product-card {
+    transition: transform 0.3s ease-in-out;
+}
+
+.product-card:hover {
+    transform: translateY(-10px);
+}
+
+.product-card img {
+    width: 100%;
+    max-height: 250px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
